@@ -1,0 +1,20 @@
+
+.city {
+    margin: 2px;
+    padding: 5px;
+    border-bottom: 1px black solid; 
+    
+}
+
+
+    
+#card {
+    border: 1px red solid;
+    height: 50%;
+}
+   
+
+#fiveDay {
+    border: 1px red solid;
+    height: 50%;
+}
