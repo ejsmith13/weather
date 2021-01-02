@@ -24,12 +24,12 @@
         <button id="searchBtn" class="btn btn-primary">
           <i class="fas fa-search"></i>
         </button>
-        <section class="city" data-city="atlanta">Atlanta</section>
+        <section class="city" data-city="atlanta,ga,us">Atlanta</section>
         <section class="city" data-city="austin">Austin</section>
         <section class="city" data-city="chicago">Chicago</section>
-        <section class="city" data-city="losAngeles">Los Angeles</section>
+        <section class="city" data-city="los+angeles">Los Angeles</section>
         <section class="city" data-city="miami">Miami</section>
-        <section class="city" data-city="newYork">New York</section>
+        <section class="city" data-city="new+york">New York</section>
         <section class="city" data-city="richmond">Richmond</section>
         <section class="city" data-city="seatle">Seatle</section>
         <section class="city" data-city="washington">Washington, DC</section>
@@ -37,21 +37,16 @@
       <main class="col-md-9">
         <div class="row card" id="card">
           <div class="card-body">
-            <h5 class="card-title">Current Forecast</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+            <h5 class="card-title">Current Forecast: </h5>
+            <h6 class="card-subtitle mb-2 text-muted" id= "currentCity"></h6>
+            <p class="card-text" id= "currentText"></p>
           </div>
         </div>
         <div class="row card" id="fiveDay">
           <div class="card-body">
             <h5 class="card-title">5 day forecast</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            <h6 class="card-subtitle mb-2 text-muted" id="fiveDayCity"></h6>
+            <p class="card-text" id="fiveDayForecast">
             </p>
           </div>
         </div>
