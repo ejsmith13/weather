@@ -5,7 +5,7 @@ $(".city").on("click", function() {
     var city= $(this).attr("data-city")
     console.log(city)
 
-    var queryURL= "http://api.openweathermap.org/data/2.5/forecast?q=" + city + "&appid=1e1b966716694bd21ec978c2606afbc8"
+    var queryURL= "http://api.openweathermap.org/data/2.5/forecast?q=" + city + "&appid="
 
     $.ajax({
         url: queryURL,
@@ -36,7 +36,7 @@ $("#searchBtn").on("click", function() {
     var city= $("#citySearch").val().trim().toLowerCase();
     console.log(city)
 
-    var queryURL= "http://api.openweathermap.org/data/2.5/forecast?q=" + city + "&appid=1e1b966716694bd21ec978c2606afbc8"
+    var queryURL= "http://api.openweathermap.org/data/2.5/forecast?q=" + city + "&appid="
 
     $.ajax({
         url: queryURL,
